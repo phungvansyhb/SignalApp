@@ -1,0 +1,42 @@
+.caculator {
+    min-height: 100vh;
+    padding-top: 100px;
+    text-align: center;
+    background-color:#faebd754;
+
+}
+.wrap-cacul{
+    width: 80%;
+    background-color: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+.wrap-cacul .signal {
+    margin: 10px;
+    border: 1px solid gray;
+    height: 50px;
+}
+.wrap-cacul .signal span{
+    font-size: 20px;
+
+}
+.wrap-cacul .signal input{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+#txt {
+    border: none;
+    color: #888;
+    min-width: 20px;
+}
+
+#hide {
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    white-space: pre;
+}
