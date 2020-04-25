@@ -12,7 +12,7 @@ class Footer extends Component {
                         </div>
                         <div className="col-6 col-sm-6 col-md-6">
                             <p className="ft-text" style={{marginTop: '5%', marginBottom: '3%'}}><a
-                                href="#">phungvansy.github.com</a></p>
+                                href="github.com">phungvansy.github.com</a></p>
                         </div>
                     </div>
                 </div>

@@ -17,24 +17,31 @@
 .wrap-cacul .signal {
     margin: 10px;
     border: 1px solid gray;
-    height: 50px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrap-cacul .x2-signal {
+   margin-top: 20px;
 }
 .wrap-cacul .signal span{
     font-size: 20px;
-
 }
 .wrap-cacul .signal input{
     font-size: 16px;
     font-weight: 600;
     color: black;
+    width: 50px;
 }
-#txt {
-    border: none;
+.input {
+    margin-left: 5px;
     color: #888;
     min-width: 20px;
+    border: 1px solid gray 
 }
 
-#hide {
+.hide {
     position: absolute;
     height: 0;
     overflow: hidden;
