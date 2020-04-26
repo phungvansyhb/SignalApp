@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SigniApp/static/css/main.a6252d81.chunk.css",
+    "main.js": "/SigniApp/static/js/main.3fc34ab4.chunk.js",
+    "main.js.map": "/SigniApp/static/js/main.3fc34ab4.chunk.js.map",
+    "runtime-main.js": "/SigniApp/static/js/runtime-main.b8a4c6f2.js",
+    "runtime-main.js.map": "/SigniApp/static/js/runtime-main.b8a4c6f2.js.map",
+    "static/js/2.f3cccb10.chunk.js": "/SigniApp/static/js/2.f3cccb10.chunk.js",
+    "static/js/2.f3cccb10.chunk.js.map": "/SigniApp/static/js/2.f3cccb10.chunk.js.map",
+    "index.html": "/SigniApp/index.html",
+    "precache-manifest.8f9f4f33f0ec49bc8833d3379127cd31.js": "/SigniApp/precache-manifest.8f9f4f33f0ec49bc8833d3379127cd31.js",
+    "service-worker.js": "/SigniApp/service-worker.js",
+    "static/css/main.a6252d81.chunk.css.map": "/SigniApp/static/css/main.a6252d81.chunk.css.map",
+    "static/js/2.f3cccb10.chunk.js.LICENSE.txt": "/SigniApp/static/js/2.f3cccb10.chunk.js.LICENSE.txt",
+    "static/media/home.style.css": "/SigniApp/static/media/bg.704dd166.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8a4c6f2.js",
+    "static/js/2.f3cccb10.chunk.js",
+    "static/css/main.a6252d81.chunk.css",
+    "static/js/main.3fc34ab4.chunk.js"
+  ]
+}
