@@ -11,9 +11,9 @@ class Header extends Component {
                             className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"/></button>
                         <div className="collapse navbar-collapse text-capitalize" id="navcol-1">
                             <ul className="nav navbar-nav ml-auto">
-                                <li className="nav-item" role="presentation"><a className="nav-link active" href="#huongdan">Hướng
+                                <li className="nav-item" role="presentation"><a className="nav-link active" href="#guide">Hướng
                                     dẫn</a></li>
-                                <li className="nav-item" role="presentation"><a className="nav-link active" href="#gopy">góp
+                                <li className="nav-item" role="presentation"><a className="nav-link active" href="#fix">góp
                                     ý</a></li>
                                 <li className="nav-item" role="presentation"><a className="nav-link active" href="#author">tác
                                     giả</a></li>

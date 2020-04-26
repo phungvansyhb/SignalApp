@@ -1,0 +1,17 @@
+.guide{
+  background-color: rgba(0, 188, 212, 0.2);
+  min-height: 80vh;
+  padding: 40px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  /* font-family: cursive; */
+  line-height: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.guide span {
+  color: black;
+  font-weight: 600;
+}

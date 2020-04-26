@@ -6,13 +6,13 @@ class Footer extends Component {
             <div className="footer-2" id="author">
                 <div className="container">
                     <div className="row">
-                        <div className="col-6 col-sm-6 col-md-6">
+                        <div className="col-12 col-sm-6 col-md-6">
                             <p className="ft-text" style={{marginTop: '5%', marginBottom: '3%'}}>©View source code on
                                 github</p>
                         </div>
-                        <div className="col-6 col-sm-6 col-md-6">
+                        <div className="col-12 col-sm-6 col-md-6">
                             <p className="ft-text" style={{marginTop: '5%', marginBottom: '3%'}}><a
-                                href="github.com">phungvansy.github.com</a></p>
+                                href="github.com">github.com/phungvansyhb/SigniApp</a></p>
                         </div>
                     </div>
                 </div>

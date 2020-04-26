@@ -21,4 +21,12 @@ export const GetSign = (index,value) => ({
     value : value
   }
 })
+export const CaculResult = () => ({
+  type: 'CACULRESULT',
+ 
+})
+// export const ShowResult = () => ({
+//   type: 'SHOWRESULT',
+ 
+// })
 

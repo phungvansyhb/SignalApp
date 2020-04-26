@@ -2,10 +2,10 @@
     min-height: 100vh;
     padding-top: 100px;
     text-align: center;
-    background-color:#faebd754;
-
+    background-color: #faebd754;
+    padding-bottom: 2rem;
 }
-.wrap-cacul{
+.wrap-cacul {
     width: 80%;
     background-color: white;
     margin-left: 50%;
@@ -18,32 +18,101 @@
     margin: 10px;
     border: 1px solid gray;
     height: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
-.wrap-cacul .x2-signal {
-   margin-top: 20px;
+.wrap-cacul .x-signal {
+    padding: 1em;
 }
-.wrap-cacul .signal span{
+.wrap-cacul .signal span {
     font-size: 20px;
 }
-.wrap-cacul .signal input{
+.wrap-cacul .signal input {
     font-size: 16px;
     font-weight: 600;
     color: black;
     width: 50px;
 }
+@media screen and ( max-width:500px ) {
+    .wrap-cacul .signal input {
+        font-size: 14px;
+        width: 30px !important;
+    }
+}
 .input {
     margin-left: 5px;
     color: #888;
     min-width: 20px;
-    border: 1px solid gray 
+    border: 1px solid gray;
 }
-
+.col-btn {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+.col-btn .btn-remove {
+    width: 100%;
+    height: 40%;
+    background-color: #ff0505db;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col-btn .btn-add {
+    width: 100%;
+    height: 40%;
+    background-color: #1d1daeb3;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and ( max-width:500px ) {
+    .col-10 .col-2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .col-btn .btn-add  {
+        width: 100%;
+        height: 40%;
+      
+    }
+    .col-btn .btn-remove{
+        height: 40%;
+    }
+}
 .hide {
     position: absolute;
     height: 0;
     overflow: hidden;
     white-space: pre;
+}
+.wrap-result {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.wrap-result .message{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrap-result span {
+    font-size: 20px;
+}
+.result-elm {
+    font-size: 12px;
+    padding: 0.3rem;
+    margin: 0 5px;
 }

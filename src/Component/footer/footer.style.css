@@ -17,8 +17,14 @@
     flex-direction: column;
     justify-content: center;
     /*height: 100%;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 10px;
 }
-
+@media screen and (max-width:500px){
+    .footer-2 a {
+        font-size: 14px;
+    }
+}
 @media (min-width: 300px) {
     .ft-text{
         font-size: 18px;
